@@ -1,3 +1,6 @@
+"""
+https://www.acmicpc.net/problem/17608
+"""
 def solution(sticks):
     answer = 1
     src = sticks.pop()
