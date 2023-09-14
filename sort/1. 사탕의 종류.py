@@ -8,7 +8,7 @@
 
 
 def solution(nums: list[int]) -> int:
-    n = len(nums) // 2
+    n = len(nums) // 2  # 정수로 나오게
     m = len(set(nums))
 
     return int(min(n, m))
